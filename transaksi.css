@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.heading span {
+  color: rgb(252, 0, 0);
+}
+
+.checkout,
+.invoice {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.content h3 {
+  margin: 0;
+}
+
+.price {
+  color: #f00;
+}
+
+.subtotal {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-form input,
+.checkout-form select,
+.checkout-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.invoice-content p {
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d00;
+}
